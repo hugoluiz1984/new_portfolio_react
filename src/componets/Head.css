@@ -1,0 +1,41 @@
+.head{
+    margin: 25px 0px 50px 0;
+    background-image: radial-gradient(rgb(92, 72, 114),rgb(51, 42, 73),rgb(51, 42,73));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    align-self: center;
+    min-height: 100vh;
+}
+h1{
+    font-size: 120px;
+    line-height: 1.1;
+    box-sizing: border-box;
+    margin: 0;
+}
+h4{
+    font-size: 30px;
+    line-height: 1;
+    box-sizing: border-box;
+    margin: 0;
+    margin-bottom: 4px;
+}
+h5{
+    font-size: 20px;
+    line-height: 1.8;
+    box-sizing: border-box;
+    margin-left: 50%;
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 80px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 12px;
+    }
+}
