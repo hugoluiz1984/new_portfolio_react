@@ -1,5 +1,8 @@
 import React from 'react'
 import "./Projects.css"
+import GammaChat from "../assets/GammaChat.png";
+import CryptoGamma from "../assets/CryptoGamma.png";
+import GamaStore from "../assets/GamaStore.png";
 
 const Projects = () => {
   return (
@@ -10,23 +13,29 @@ const Projects = () => {
             <div class="about__cards">
                 <article class="about__card">
                     <div className='about__icon' />
-                    <p>Gamma Chat</p>
+                    <img src={GammaChat}  />
+                      <p>Gamma Chat</p>
+                      <small>
+                          
+                      </small>
                 
                 </article>
-                    <article class="about__card">
+                <article class="about__card">
                     <div className='about__icon' />
-                    <p>Ecomerce</p>
-                    
+                    <img src={GamaStore}  />
+                    <p>E-commerce</p>
+                    <small></small>
+                </article>
+                <article class="about__card">
+                    <div className='about__icon' />
+                    <img src={CryptoGamma}  />
+                    <p>CryptoGamma</p>
+                    <small></small>
                 </article>
                 <article class="about__card">
                     <div className='about__icon' />
                     <p>Experience</p>
-                    
-                </article>
-                <article class="about__card">
-                    <div className='about__icon' />
-                    <p>Experience</p>
-                    
+                    <small></small>
                 </article>
             </div>
         </div>

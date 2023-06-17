@@ -4,9 +4,7 @@
   font-family: 'Anton',Arial, Helvetica, sans-serif, sans-serif, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   justify-self: center;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: rgb(51, 42, 73);
@@ -19,9 +17,9 @@
 
   --color-bg: #1f1f38;
   --color-bg-variant: #2f2f4d;
-  --color-primary: #5db5ff;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 }
-
+body {
+  overflow-x: hidden;
+}
